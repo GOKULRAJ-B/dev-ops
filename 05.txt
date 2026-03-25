@@ -1,0 +1,22 @@
+docker --version ---> to check the version
+
+docker info
+
+docker history <image_name>
+ex: docker history httpd 
+
+docker images ---> gives the images which are existing
+
+docker run httpd echo "Hello, World!"
+
+docker run -e MY_VAR=value httpd env
+
+
+
+docker run -d
+	-e MYSQL_ROOT_PASSWORD=root123
+	-e MYSQL_DATABASE=college
+	-e MYSQL_USER=ADMIN
+	-e MYSQL_PASSWORD=ADMIN123
+	MySQL:8
+
