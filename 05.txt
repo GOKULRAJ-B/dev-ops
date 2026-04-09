@@ -1,4 +1,5 @@
-docker --version ---> to check the version
+docker --version 
+---> to check the version
 
 docker info
 
