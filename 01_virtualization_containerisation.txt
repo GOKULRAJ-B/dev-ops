@@ -1,0 +1,25 @@
+Virtualization is the process of partitioning a physical server into multiple 
+virtual servers.
+
+
+The process of partitioning is carried out using a software called hypervisor.
+
+container runtime:
+         A container runtime is the software responsible for creating, starting, 
+         stopping, and managing containers on a host system.It acts as the execution 
+         engine that turns a container image into a running container.
+
+
+
+High-Level Runtimes:
+
+                Used by users and DevOps tools.
+                Docker Engine,containerd
+
+Low-Level Runtimes:
+
+                    Responsible for actually running the container process.
+                    runc
+
+
+

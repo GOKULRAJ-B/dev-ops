@@ -1,6 +1,9 @@
 cgroups:
         cgroups are used to limit the resources. So, that no process can eat the entire cgroups
 
+They ensure that:
+            No container can monopolize system resources
+            Fair sharing of CPU, memory, and I/O
 
 namespace:
         namespace is used for isolation

@@ -1,0 +1,12 @@
+docker run -d -p 80:8082 --name DB-app mongo
+
+
+
+docker stop $(docker ps -aq) 
+---> stops all container 
+
+docker rm $(docker ps -aq) 
+---> removes all container
+
+docker rmi $(docker images -aq) 
+---> removes all pulled or existing images
